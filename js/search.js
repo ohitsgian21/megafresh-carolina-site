@@ -17,6 +17,14 @@
   if (!overlay || !input || !results) return;
 
   var deals      = window.deals      || [];
+
+  /* Load the full shopper so search covers every special, not only the featured ones. */
+  if (window.fetch) {
+    fetch('js/specials.json')
+      .then(function(r) { return r.json(); })
+      .then(function(list) { if (list && list.length) deals = list; })
+      .catch(function() {});
+  }
   var categories = window.categories || [];
 
   /* ── Open / Close ── */
@@ -72,6 +80,7 @@
     deals.forEach(function(deal) {
       if (
         deal.name.toLowerCase().indexOf(q) !== -1 ||
+        (deal.detail || '').toLowerCase().indexOf(q) !== -1 ||
         deal.category.toLowerCase().indexOf(q) !== -1
       ) {
         matched.push({
@@ -79,7 +88,7 @@
           name: deal.name,
           sub: deal.category,
           price: deal.price,
-          link: 'ofertas.html'
+          link: 'ofertas.html?cat=' + encodeURIComponent(deal.category)
         });
       }
     });

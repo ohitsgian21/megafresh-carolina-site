@@ -1,0 +1,1409 @@
+[
+ {
+  "id": 1,
+  "category": "Especiales de Portada",
+  "name": "Costillas de Cerdo",
+  "detail": "Country Style, sin hueso, frescas · De Estados Unidos",
+  "price": "$1.69 lb.",
+  "reg": "$3.19 lb.",
+  "img": "img/shopper/sp-001.jpg"
+ },
+ {
+  "id": 2,
+  "category": "Especiales de Portada",
+  "name": "Agrosuper Pechuga de Pollo",
+  "detail": "Sin piel y hueso · 8 lb",
+  "price": "$19.99",
+  "reg": "$31.99",
+  "img": "img/shopper/sp-002.jpg"
+ },
+ {
+  "id": 3,
+  "category": "Especiales de Portada",
+  "name": "La Buena Pesca Camarón Crudo",
+  "detail": "EZ Peel 31/40 · 12 oz",
+  "price": "$3.99",
+  "reg": "$6.49",
+  "img": "img/shopper/sp-003.jpg"
+ },
+ {
+  "id": 4,
+  "category": "Especiales de Portada",
+  "name": "Goya Habichuelas en Agua y Sal",
+  "detail": "Coloradas, rosadas, pintas, negras, blancas o garbanzos · 15.5 oz",
+  "price": ".89¢",
+  "reg": "$1.29",
+  "img": "img/shopper/sp-004.jpg"
+ },
+ {
+  "id": 5,
+  "category": "Especiales de Portada",
+  "name": "Parkay Margarina",
+  "detail": "13 oz",
+  "price": "2 x $4.00",
+  "reg": "$3.29 c/u",
+  "img": "img/shopper/sp-005.jpg"
+ },
+ {
+  "id": 6,
+  "category": "Especiales de Portada",
+  "name": "Pepsi o 7up Refresco",
+  "detail": "1.25 lt",
+  "price": ".79¢",
+  "reg": "$1.39",
+  "img": "img/shopper/sp-006.jpg"
+ },
+ {
+  "id": 7,
+  "category": "Especiales de Portada",
+  "name": "Oreo o Nestlé Gold Edition Mantecado",
+  "detail": "Variedad · 1.5 qt",
+  "price": "$5.49",
+  "reg": "hasta $11.19",
+  "img": "img/shopper/sp-007.jpg"
+ },
+ {
+  "id": 8,
+  "category": "Especiales de Portada",
+  "name": "Johnnie Walker Black Label Whisky",
+  "detail": "12 años · 750 ml",
+  "price": "$33.99",
+  "reg": "$49.49",
+  "img": "img/shopper/sp-008.jpg"
+ },
+ {
+  "id": 9,
+  "category": "Especiales de Portada",
+  "name": "Tomate Tubo",
+  "detail": "De Estados Unidos · 1 ct",
+  "price": "4 x $5.00",
+  "reg": "$1.79 c/u",
+  "img": "img/shopper/sp-009.jpg"
+ },
+ {
+  "id": 10,
+  "category": "Especiales de Portada",
+  "name": "Welch's Uvas Verdes",
+  "detail": "Sin semillas · 2 lb",
+  "price": "$5.49",
+  "reg": "$8.29",
+  "img": "img/shopper/sp-010.jpg"
+ },
+ {
+  "id": 11,
+  "category": "Especiales de Portada",
+  "name": "Oscar Mayer Deli Fresh Cold Cuts",
+  "detail": "Variedad · hasta 9 oz",
+  "price": "$4.99",
+  "reg": "$7.99",
+  "img": "img/shopper/sp-011.jpg"
+ },
+ {
+  "id": 12,
+  "category": "Especiales de Portada",
+  "name": "Pets Like Comida Seca para Perro",
+  "detail": "Variedad · 13.3 lb",
+  "price": "$10.99",
+  "reg": "$21.99",
+  "img": "img/shopper/sp-012.jpg"
+ },
+ {
+  "id": 13,
+  "category": "Lácteos y Congelados",
+  "name": "Kraft American Single o Velveeta Slices",
+  "detail": "Variedad · 12 oz",
+  "price": "$2.99",
+  "reg": "$4.19",
+  "img": "img/shopper/sp-013.jpg"
+ },
+ {
+  "id": 14,
+  "category": "Lácteos y Congelados",
+  "name": "Kraft o Velveeta Quesos Rallados",
+  "detail": "Variedad · hasta 8 oz",
+  "price": "2 x $5.00",
+  "reg": "$4.29 c/u",
+  "img": "img/shopper/sp-014.jpg"
+ },
+ {
+  "id": 15,
+  "category": "Lácteos y Congelados",
+  "name": "Kraft Queso Media Luna o Chunk, o Velveeta Queso de Papa",
+  "detail": "Variedad · 8 oz",
+  "price": "2 x $5.00",
+  "reg": "$3.39 c/u",
+  "img": "img/shopper/sp-015.jpg"
+ },
+ {
+  "id": 16,
+  "category": "Lácteos y Congelados",
+  "name": "Kraft Queso Parmesano Molido",
+  "detail": "Variedad · 8 oz",
+  "price": "$4.99",
+  "reg": "$6.69",
+  "img": "img/shopper/sp-016.jpg"
+ },
+ {
+  "id": 17,
+  "category": "Lácteos y Congelados",
+  "name": "Philadelphia Queso Crema",
+  "detail": "Original o Light · 8 oz",
+  "price": "2 x $4.00",
+  "reg": "$3.69 c/u",
+  "img": "img/shopper/sp-017.jpg"
+ },
+ {
+  "id": 18,
+  "category": "Lácteos y Congelados",
+  "name": "Philadelphia Queso Crema Spread o Whipped",
+  "detail": "Variedad · hasta 8 oz",
+  "price": "$2.79",
+  "reg": "$3.69",
+  "img": "img/shopper/sp-018.jpg"
+ },
+ {
+  "id": 19,
+  "category": "Lácteos y Congelados",
+  "name": "Kraft Quesos Naturales",
+  "detail": "Variedad · 8 oz",
+  "price": "$3.99",
+  "reg": "$5.59",
+  "img": "img/shopper/sp-019.jpg"
+ },
+ {
+  "id": 20,
+  "category": "Lácteos y Congelados",
+  "name": "Country Crock Margarina",
+  "detail": "Variedad · 15 oz",
+  "price": "$3.99",
+  "reg": "$5.49",
+  "img": "img/shopper/sp-020.jpg"
+ },
+ {
+  "id": 21,
+  "category": "Lácteos y Congelados",
+  "name": "Holsum Pan Club, Integral o Integral Blanco",
+  "detail": "24 oz",
+  "price": "$3.59",
+  "reg": "$4.19",
+  "img": "img/shopper/sp-021.jpg"
+ },
+ {
+  "id": 22,
+  "category": "Lácteos y Congelados",
+  "name": "Holsum Pan Hot Dog, Hamburger o Hawaiian Hot Dog",
+  "detail": "8 ct",
+  "price": "$2.69",
+  "reg": "$3.19",
+  "img": "img/shopper/sp-022.jpg"
+ },
+ {
+  "id": 23,
+  "category": "Lácteos y Congelados",
+  "name": "Holsum Cake",
+  "detail": "Coffee Cake 11.5 oz o Pound Cake 14 oz · Variedad",
+  "price": "$3.99",
+  "reg": "$4.99",
+  "img": "img/shopper/sp-023.jpg"
+ },
+ {
+  "id": 24,
+  "category": "Lácteos y Congelados",
+  "name": "Oreo Cone, Kit Kat Cone o Nestlé Drumstick",
+  "detail": "4 ct",
+  "price": "$4.99",
+  "reg": "$8.99",
+  "img": "img/shopper/sp-024.jpg"
+ },
+ {
+  "id": 25,
+  "category": "Lácteos y Congelados",
+  "name": "Nestlé Strawberry Shortcake, Kit Kat Bar, Crunch Vainilla o Fudge Bars",
+  "detail": "5 ct o 6 ct",
+  "price": "$4.99",
+  "reg": "$8.99",
+  "img": "img/shopper/sp-025.jpg"
+ },
+ {
+  "id": 26,
+  "category": "Lácteos y Congelados",
+  "name": "Oscar Mayer Bacon Bits o Pieces",
+  "detail": "Hasta 3 oz",
+  "price": "$3.29",
+  "reg": "$4.79",
+  "img": "img/shopper/sp-026.jpg"
+ },
+ {
+  "id": 27,
+  "category": "Lácteos y Congelados",
+  "name": "Oscar Mayer Bologna o Cotto Salami",
+  "detail": "8 oz",
+  "price": "$2.69",
+  "reg": "$3.99",
+  "img": "img/shopper/sp-027.jpg"
+ },
+ {
+  "id": 28,
+  "category": "Lácteos y Congelados",
+  "name": "Lunchables",
+  "detail": "Variedad · hasta 4.4 oz",
+  "price": "$2.69",
+  "reg": "$3.59",
+  "img": "img/shopper/sp-028.jpg"
+ },
+ {
+  "id": 29,
+  "category": "Lácteos y Congelados",
+  "name": "Oscar Mayer P3 Portable Protein Pack",
+  "detail": "Variedad · 2 oz",
+  "price": "$1.89",
+  "reg": "$2.99",
+  "img": "img/shopper/sp-029.jpg"
+ },
+ {
+  "id": 30,
+  "category": "Lácteos y Congelados",
+  "name": "Oscar Mayer Turkey Uncured Franks o Stuffed Dog Cheese",
+  "detail": "16 oz",
+  "price": "$5.99",
+  "reg": "$9.29",
+  "img": "img/shopper/sp-030.jpg"
+ },
+ {
+  "id": 31,
+  "category": "Lácteos y Congelados",
+  "name": "Eggo Protein Waffle o Pancake",
+  "detail": "Variedad · hasta 14.8 oz",
+  "price": "$5.39",
+  "reg": "$7.79",
+  "img": "img/shopper/sp-031.jpg"
+ },
+ {
+  "id": 32,
+  "category": "Lácteos y Congelados",
+  "name": "Tony's Pizza",
+  "detail": "Congelada · Variedad · hasta 20.6 oz",
+  "price": "$3.99",
+  "reg": "$5.99",
+  "img": "img/shopper/sp-032.jpg"
+ },
+ {
+  "id": 33,
+  "category": "Lácteos y Congelados",
+  "name": "Ito Tostones, Palitos y Trozos de Pana o Palitos de Batata",
+  "detail": "20 oz",
+  "price": "$3.99",
+  "reg": "$5.99",
+  "img": "img/shopper/sp-033.jpg"
+ },
+ {
+  "id": 34,
+  "category": "Lácteos y Congelados",
+  "name": "Delimex Cocina Taquitos",
+  "detail": "Variedad · hasta 20 oz",
+  "price": "$8.39",
+  "reg": "$12.49",
+  "img": "img/shopper/sp-034.jpg"
+ },
+ {
+  "id": 35,
+  "category": "Lácteos y Congelados",
+  "name": "Freshcourt Guacamole",
+  "detail": "Variedad · 8 oz",
+  "price": "$2.99",
+  "reg": "$4.39",
+  "img": "img/shopper/sp-035.jpg"
+ },
+ {
+  "id": 36,
+  "category": "Lácteos y Congelados",
+  "name": "Lera Tostones de Yuca o Palitos de Yuca",
+  "detail": "1 lb",
+  "price": "2 x $5.00",
+  "reg": "$3.49 c/u",
+  "img": "img/shopper/sp-036.jpg"
+ },
+ {
+  "id": 37,
+  "category": "Lácteos y Congelados",
+  "name": "Golden Supreme Bebida de Frutas",
+  "detail": "Variedad · 120 oz",
+  "price": "2 x $5.00",
+  "reg": "$3.99 c/u",
+  "img": "img/shopper/sp-037.jpg"
+ },
+ {
+  "id": 38,
+  "category": "Lácteos y Congelados",
+  "name": "Suiza Fruit Bebida de Frutas",
+  "detail": "Variedad · 59 oz",
+  "price": "$2.59",
+  "reg": "$3.69",
+  "img": "img/shopper/sp-038.jpg"
+ },
+ {
+  "id": 39,
+  "category": "La Placita",
+  "name": "Lechuga Iceberg",
+  "detail": "De Estados Unidos · 1 ct",
+  "price": "2 x $4.00",
+  "reg": "$2.59 c/u",
+  "img": "img/shopper/sp-039.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 40,
+  "category": "La Placita",
+  "name": "Calabaza Entera",
+  "detail": "De Puerto Rico",
+  "price": ".49¢ lb.",
+  "reg": "$0.59 lb",
+  "img": "img/shopper/sp-040.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 41,
+  "category": "La Placita",
+  "name": "Welch's Nectarines, Ciruelas o Melocotón",
+  "detail": "2 lb",
+  "price": "$4.99",
+  "reg": "$6.99",
+  "img": "img/shopper/sp-041.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 42,
+  "category": "La Placita",
+  "name": "El Huerto Ajo Molido",
+  "detail": "Variedad · 8 oz",
+  "price": "2 x $3.00",
+  "reg": "$2.39 c/u",
+  "img": "img/shopper/sp-042.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 43,
+  "category": "La Placita",
+  "name": "El Huerto Sofrito",
+  "detail": "Variedad · 32 oz",
+  "price": "2 x $5.00",
+  "reg": "$4.19 c/u",
+  "img": "img/shopper/sp-043.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 44,
+  "category": "La Placita",
+  "name": "Welch's Kiwi",
+  "detail": "1.3 lb",
+  "price": "$3.49",
+  "reg": "$4.69",
+  "img": "img/shopper/sp-044.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 45,
+  "category": "La Placita",
+  "name": "The Little Potato Co. Papas",
+  "detail": "Variedad · 1.5 lb",
+  "price": "$3.99",
+  "reg": "$4.99",
+  "img": "img/shopper/sp-045.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 46,
+  "category": "La Placita",
+  "name": "Yuca",
+  "detail": "De Nicaragua o Costa Rica",
+  "price": ".99¢ lb.",
+  "reg": "$1.29 lb",
+  "img": "img/shopper/sp-046.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 47,
+  "category": "La Placita",
+  "name": "OKF Farmer's Bebida Aloe Vera",
+  "detail": "Variedad · 16.9 oz",
+  "price": "2 x $3.00",
+  "reg": "$1.99 c/u",
+  "img": "img/shopper/sp-047.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 48,
+  "category": "La Placita",
+  "name": "Papas para Cocinar",
+  "detail": "De Canadá · 5 lb",
+  "price": "$2.99",
+  "reg": "$3.99",
+  "img": "img/shopper/sp-048.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 49,
+  "category": "La Placita",
+  "name": "Zanahoria",
+  "detail": "De Estados Unidos o México · 1 lb",
+  "price": ".99¢",
+  "reg": "$1.19",
+  "img": "img/shopper/sp-049.jpg",
+  "bg": "#f2e5d4"
+ },
+ {
+  "id": 50,
+  "category": "Carnes Frescas",
+  "name": "Carolina Turkey Carne Molida de Pavo",
+  "detail": "Congelada · 1 lb",
+  "price": "$3.99",
+  "reg": "$6.99",
+  "img": "img/shopper/sp-050.jpg"
+ },
+ {
+  "id": 51,
+  "category": "Carnes Frescas",
+  "name": "Primebird Chicken Party Wings",
+  "detail": "2 lb",
+  "price": "$4.99",
+  "reg": "$6.79",
+  "img": "img/shopper/sp-051.jpg"
+ },
+ {
+  "id": 52,
+  "category": "Carnes Frescas",
+  "name": "Carne para Guisar",
+  "detail": "Sin hueso, fresca · De Brasil",
+  "price": "$5.49 lb.",
+  "reg": "$6.99 lb",
+  "img": "img/shopper/sp-052.jpg"
+ },
+ {
+  "id": 53,
+  "category": "Carnes Frescas",
+  "name": "Numeat Cooked Ham o Low Sodium Ham",
+  "detail": "8 oz",
+  "price": "2 x $5.00",
+  "reg": "$3.59 c/u",
+  "img": "img/shopper/sp-053.jpg"
+ },
+ {
+  "id": 54,
+  "category": "Carnes Frescas",
+  "name": "Numar Filete de Tilapia o Basa",
+  "detail": "1 lb",
+  "price": "$3.39",
+  "reg": "$4.99",
+  "img": "img/shopper/sp-054.jpg"
+ },
+ {
+  "id": 55,
+  "category": "Carnes Frescas",
+  "name": "La Buena Pesca Camarón Cocido",
+  "detail": "Sin cola 31/40 · 12 oz",
+  "price": "$5.59",
+  "reg": "$7.99",
+  "img": "img/shopper/sp-055.jpg"
+ },
+ {
+  "id": 56,
+  "category": "Carnes Frescas",
+  "name": "Smithfield Smoked Sausage o Polska Kielbasa",
+  "detail": "13 oz",
+  "price": "$4.89",
+  "reg": "$7.19",
+  "img": "img/shopper/sp-056.jpg"
+ },
+ {
+  "id": 57,
+  "category": "Provisiones",
+  "name": "Goya Salsa de Tomate",
+  "detail": "8 oz",
+  "price": "2 x $1.00",
+  "reg": "$0.65 c/u",
+  "img": "img/shopper/sp-057.jpg"
+ },
+ {
+  "id": 58,
+  "category": "Provisiones",
+  "name": "Goya Arroz Grano Mediano",
+  "detail": "3 lb",
+  "price": "2 x $5.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-058.jpg"
+ },
+ {
+  "id": 59,
+  "category": "Provisiones",
+  "name": "Goya Sazón",
+  "detail": "Original, Culantro & Achiote o Azafrán · 20 ct",
+  "price": "$2.49",
+  "reg": "$3.19",
+  "img": "img/shopper/sp-059.jpg"
+ },
+ {
+  "id": 60,
+  "category": "Provisiones",
+  "name": "Goya Adobo",
+  "detail": "Con comino, pimienta y sin pimienta · 8 oz",
+  "price": "$1.19",
+  "reg": "$1.39",
+  "img": "img/shopper/sp-060.jpg"
+ },
+ {
+  "id": 61,
+  "category": "Provisiones",
+  "name": "Goya Vegetales Enlatados",
+  "detail": "Variedad · 8.75 oz",
+  "price": ".99¢",
+  "reg": "$1.19",
+  "img": "img/shopper/sp-061.jpg"
+ },
+ {
+  "id": 62,
+  "category": "Provisiones",
+  "name": "Classico Salsa para Pasta",
+  "detail": "Variedad · hasta 24 oz",
+  "price": "$2.99",
+  "reg": "$4.49",
+  "img": "img/shopper/sp-062.jpg"
+ },
+ {
+  "id": 63,
+  "category": "Provisiones",
+  "name": "Kraft BBQ Salsas",
+  "detail": "Variedad · 18 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-063.jpg"
+ },
+ {
+  "id": 64,
+  "category": "Provisiones",
+  "name": "Kraft Aderezos",
+  "detail": "Variedad · 16 oz",
+  "price": "2 x $5.00",
+  "reg": "$4.19 c/u",
+  "img": "img/shopper/sp-064.jpg"
+ },
+ {
+  "id": 65,
+  "category": "Provisiones",
+  "name": "Kraft Cheez Whiz",
+  "detail": "15 oz",
+  "price": "$3.99",
+  "reg": "$4.99",
+  "img": "img/shopper/sp-065.jpg"
+ },
+ {
+  "id": 66,
+  "category": "Provisiones",
+  "name": "Kraft Mayonesa",
+  "detail": "30 oz o Squeeze 22 oz · Variedad",
+  "price": "$3.99",
+  "reg": "hasta $5.59",
+  "img": "img/shopper/sp-066.jpg"
+ },
+ {
+  "id": 67,
+  "category": "Provisiones",
+  "name": "Kraft Macaroni & Cheese",
+  "detail": "Variedad · 7.25 oz",
+  "price": "4 x $5.00",
+  "reg": "$1.59 c/u",
+  "img": "img/shopper/sp-067.jpg"
+ },
+ {
+  "id": 68,
+  "category": "Provisiones",
+  "name": "Velveeta Shells & Cheese Pasta",
+  "detail": "Variedad · hasta 12 oz",
+  "price": "$2.99",
+  "reg": "$4.19",
+  "img": "img/shopper/sp-068.jpg"
+ },
+ {
+  "id": 69,
+  "category": "Provisiones",
+  "name": "La Banderita Tortilla Burrito",
+  "detail": "Grande 10\" 8 ct, Soft Taco 8\" 10 ct o Family Pack 6\" 20 ct",
+  "price": "$3.99",
+  "reg": "$4.49",
+  "img": "img/shopper/sp-069.jpg"
+ },
+ {
+  "id": 70,
+  "category": "Provisiones",
+  "name": "Idahoan Mashed Potatoes",
+  "detail": "Variedad · hasta 4.1 oz",
+  "price": "$2.19",
+  "reg": "$2.59",
+  "img": "img/shopper/sp-070.jpg"
+ },
+ {
+  "id": 71,
+  "category": "Provisiones",
+  "name": "Gitana Vinagre",
+  "detail": "16 oz",
+  "price": ".79¢",
+  "reg": "$0.99",
+  "img": "img/shopper/sp-071.jpg"
+ },
+ {
+  "id": 72,
+  "category": "Provisiones",
+  "name": "Canario Aceite",
+  "detail": "Blend of Sunflower Oil & Extra Virgin Olive Oil · 17 oz",
+  "price": "$3.69",
+  "reg": "$4.59",
+  "img": "img/shopper/sp-072.jpg"
+ },
+ {
+  "id": 73,
+  "category": "Provisiones",
+  "name": "Cedeira Calamar Jumbo",
+  "detail": "Variedad · 4.4 oz",
+  "price": "$2.19",
+  "reg": "$2.69",
+  "img": "img/shopper/sp-073.jpg"
+ },
+ {
+  "id": 74,
+  "category": "Provisiones",
+  "name": "Canario Aceitunas",
+  "detail": "Variedad · 7 oz",
+  "price": "2 x $4.00",
+  "reg": "$2.49 c/u",
+  "img": "img/shopper/sp-074.jpg"
+ },
+ {
+  "id": 75,
+  "category": "Provisiones",
+  "name": "Knorr Pasta Side",
+  "detail": "Variedad · hasta 4.5 oz",
+  "price": "2 x $3.00",
+  "reg": "$1.99 c/u",
+  "img": "img/shopper/sp-075.jpg"
+ },
+ {
+  "id": 76,
+  "category": "Provisiones",
+  "name": "Chef Boyardee Pasta en Lata",
+  "detail": "Lasagna, Ravioli o Beefaroni · 15 oz",
+  "price": "2 x $3.00",
+  "reg": "$1.79 c/u",
+  "img": "img/shopper/sp-076.jpg"
+ },
+ {
+  "id": 77,
+  "category": "Provisiones",
+  "name": "Lipton Sopas de Fideo",
+  "detail": "Sabor a pollo, 25% menos sodio · 4 ct",
+  "price": "$2.69",
+  "reg": "$3.89",
+  "img": "img/shopper/sp-077.jpg"
+ },
+ {
+  "id": 78,
+  "category": "Provisiones",
+  "name": "Del Monte Ketchup",
+  "detail": "Easy Squeeze · 20 oz",
+  "price": "$2.59",
+  "reg": "$3.09",
+  "img": "img/shopper/sp-078.jpg"
+ },
+ {
+  "id": 79,
+  "category": "Provisiones",
+  "name": "Coloso Corned Beef",
+  "detail": "12 oz",
+  "price": "$4.19",
+  "reg": "$5.19",
+  "img": "img/shopper/sp-079.jpg"
+ },
+ {
+  "id": 80,
+  "category": "Provisiones",
+  "name": "Prego Salsa Alfredo",
+  "detail": "Roasted Garlic Parmesan o Garlic & Caramelized Onion · 14.5 oz",
+  "price": "$3.29",
+  "reg": "$4.59",
+  "img": "img/shopper/sp-080.jpg"
+ },
+ {
+  "id": 81,
+  "category": "Provisiones",
+  "name": "Huy Fong Foods Siracha Hot Chili Sauce",
+  "detail": "17 oz",
+  "price": "$4.59",
+  "reg": "$5.99",
+  "img": "img/shopper/sp-081.jpg"
+ },
+ {
+  "id": 82,
+  "category": "Gustitos y Ahorros",
+  "name": "Truvia Stevia",
+  "detail": "Leaf Plant-Based Sweetness · 40 ct",
+  "price": "$3.99",
+  "reg": "$4.49",
+  "img": "img/shopper/sp-082.jpg"
+ },
+ {
+  "id": 83,
+  "category": "Gustitos y Ahorros",
+  "name": "Holsum Delights La Ovalada",
+  "detail": "16 oz",
+  "price": "$3.19",
+  "reg": "$4.29",
+  "img": "img/shopper/sp-083.jpg"
+ },
+ {
+  "id": 84,
+  "category": "Gustitos y Ahorros",
+  "name": "Country Hearth Galleta de Avena",
+  "detail": "Variedad · 12 oz",
+  "price": "$3.59",
+  "reg": "$4.79",
+  "img": "img/shopper/sp-084.jpg"
+ },
+ {
+  "id": 85,
+  "category": "Gustitos y Ahorros",
+  "name": "Canario Pasta de Guayaba",
+  "detail": "21 oz",
+  "price": "$2.89",
+  "reg": "$3.39",
+  "img": "img/shopper/sp-085.jpg"
+ },
+ {
+  "id": 86,
+  "category": "Gustitos y Ahorros",
+  "name": "Adjuntas Café Molido",
+  "detail": "14 oz",
+  "price": "$4.99",
+  "reg": "$6.49",
+  "img": "img/shopper/sp-086.jpg"
+ },
+ {
+  "id": 87,
+  "category": "Gustitos y Ahorros",
+  "name": "Petit Néctar",
+  "detail": "Variedad · 1 lt",
+  "price": "3 x $5.00",
+  "reg": "$2.29 c/u",
+  "img": "img/shopper/sp-087.jpg"
+ },
+ {
+  "id": 88,
+  "category": "Gustitos y Ahorros",
+  "name": "Lipton Té Negro o Té Verde",
+  "detail": "Frío, cero azúcar · Variedad · 1.25 lt",
+  "price": "4 x $5.00",
+  "reg": "$1.69 c/u",
+  "img": "img/shopper/sp-088.jpg"
+ },
+ {
+  "id": 89,
+  "category": "Gustitos y Ahorros",
+  "name": "Electrolit Bebida Electrolítica",
+  "detail": "Variedad · 21 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-089.jpg"
+ },
+ {
+  "id": 90,
+  "category": "Gustitos y Ahorros",
+  "name": "Colombina Galletas Crakeñas",
+  "detail": "Variedad · hasta 6.77 oz",
+  "price": "2 x $3.00",
+  "reg": "$1.69 c/u",
+  "img": "img/shopper/sp-090.jpg"
+ },
+ {
+  "id": 91,
+  "category": "Gustitos y Ahorros",
+  "name": "Colombina Nucita",
+  "detail": "Crema con avellanas · 8.9 oz",
+  "price": "$2.79",
+  "reg": "$3.29",
+  "img": "img/shopper/sp-091.jpg"
+ },
+ {
+  "id": 92,
+  "category": "Gustitos y Ahorros",
+  "name": "Chewz Me Tangy Turtlz Gummies",
+  "detail": "8.46 oz",
+  "price": "$3.19",
+  "reg": "$3.69",
+  "img": "img/shopper/sp-092.jpg"
+ },
+ {
+  "id": 93,
+  "category": "Gustitos y Ahorros",
+  "name": "Chewz Me Gummy Brains",
+  "detail": "5.3 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.89 c/u",
+  "img": "img/shopper/sp-093.jpg"
+ },
+ {
+  "id": 94,
+  "category": "Gustitos y Ahorros",
+  "name": "Borden Leche sin Lactosa",
+  "detail": "Variedad · 32 oz",
+  "price": "$2.79",
+  "reg": "$3.59",
+  "img": "img/shopper/sp-094.jpg"
+ },
+ {
+  "id": 95,
+  "category": "Gustitos y Ahorros",
+  "name": "Silk Bebida de Almendras o Soya",
+  "detail": "Variedad · 32 oz",
+  "price": "$3.29",
+  "reg": "$4.39",
+  "img": "img/shopper/sp-095.jpg"
+ },
+ {
+  "id": 96,
+  "category": "Gustitos y Ahorros",
+  "name": "Cristal Light Bebida en Polvo",
+  "detail": "Variedad · 10 ct",
+  "price": "$2.75",
+  "reg": "$3.69",
+  "img": "img/shopper/sp-096.jpg"
+ },
+ {
+  "id": 97,
+  "category": "Gustitos y Ahorros",
+  "name": "Nabisco Galletas",
+  "detail": "Cameo, Oreo, Chunky, Chips Ahoy o Newtons Fig · hasta 13.3 oz",
+  "price": "$4.39",
+  "reg": "$5.99",
+  "img": "img/shopper/sp-097.jpg"
+ },
+ {
+  "id": 98,
+  "category": "Gustitos y Ahorros",
+  "name": "Capri Sun Bebida de Frutas",
+  "detail": "Variedad · 64 oz",
+  "price": "$3.29",
+  "reg": "$3.99",
+  "img": "img/shopper/sp-098.jpg"
+ },
+ {
+  "id": 99,
+  "category": "Gustitos y Ahorros",
+  "name": "Snapple Bebida de Frutas",
+  "detail": "Variedad · 16 oz",
+  "price": "$1.09",
+  "reg": "$1.39",
+  "img": "img/shopper/sp-099.jpg"
+ },
+ {
+  "id": 100,
+  "category": "Gustitos y Ahorros",
+  "name": "Snapple Bebida de Frutas",
+  "detail": "Variedad · 64 oz",
+  "price": "$2.99",
+  "reg": "$3.99",
+  "img": "img/shopper/sp-100.jpg"
+ },
+ {
+  "id": 101,
+  "category": "Gustitos y Ahorros",
+  "name": "Tres Monjitas Leche Evaporada",
+  "detail": "12 oz",
+  "price": "4 x $5.00",
+  "reg": "$1.59 c/u",
+  "img": "img/shopper/sp-101.jpg"
+ },
+ {
+  "id": 102,
+  "category": "Gustitos y Ahorros",
+  "name": "V8 100% Vegetable Juice",
+  "detail": "Variedad · 46 oz",
+  "price": "$3.69",
+  "reg": "$5.49",
+  "img": "img/shopper/sp-102.jpg"
+ },
+ {
+  "id": 103,
+  "category": "Gustitos y Ahorros",
+  "name": "V8 Splash",
+  "detail": "Berry Blend, Tropical Blend o Fruit Medley · 16 oz",
+  "price": "$1.09",
+  "reg": "$1.59",
+  "img": "img/shopper/sp-103.jpg"
+ },
+ {
+  "id": 104,
+  "category": "Gustitos y Ahorros",
+  "name": "Ocean Spray Cranberry Light",
+  "detail": "64 oz",
+  "price": "$2.99",
+  "reg": "$4.39",
+  "img": "img/shopper/sp-104.jpg"
+ },
+ {
+  "id": 105,
+  "category": "Gustitos y Ahorros",
+  "name": "Ocean Spray Cranberry Cocktail",
+  "detail": "32 oz",
+  "price": "2 x $4.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-105.jpg"
+ },
+ {
+  "id": 106,
+  "category": "Gustitos y Ahorros",
+  "name": "Quaker Avena",
+  "detail": "Variedad · 310 gm",
+  "price": "$3.29",
+  "reg": "$4.19",
+  "img": "img/shopper/sp-106.jpg"
+ },
+ {
+  "id": 107,
+  "category": "Gustitos y Ahorros",
+  "name": "Capri Sun Bebida de Frutas o Hydrate Electrolytes",
+  "detail": "Variedad · 10 pouch de 6 oz",
+  "price": "$3.69",
+  "reg": "$4.39",
+  "img": "img/shopper/sp-107.jpg"
+ },
+ {
+  "id": 108,
+  "category": "Gustitos y Ahorros",
+  "name": "Powerade Bebida Hidratante",
+  "detail": "Variedad · 20 oz",
+  "price": ".79¢",
+  "reg": "$0.99",
+  "img": "img/shopper/sp-108.jpg"
+ },
+ {
+  "id": 109,
+  "category": "Gustitos y Ahorros",
+  "name": "India Malta",
+  "detail": "Original o Light · 6 latas de 8 oz",
+  "price": "$2.99",
+  "reg": "$3.59",
+  "img": "img/shopper/sp-109.jpg"
+ },
+ {
+  "id": 110,
+  "category": "Gustitos y Ahorros",
+  "name": "VeryFine Bebida de Frutas",
+  "detail": "Variedad · 10 oz",
+  "price": ".99¢",
+  "reg": "$1.19",
+  "img": "img/shopper/sp-110.jpg"
+ },
+ {
+  "id": 111,
+  "category": "Gustitos y Ahorros",
+  "name": "Suiza Leche con sabor a Vainilla",
+  "detail": "Grado A, reducida en grasa 2% · 28 oz",
+  "price": "$2.79",
+  "reg": "$3.49",
+  "img": "img/shopper/sp-111.jpg"
+ },
+ {
+  "id": 112,
+  "category": "Gustitos y Ahorros",
+  "name": "Suiza Cortés Leche con Chocolate",
+  "detail": "Grado A, reducida en grasa 2% · 28 oz",
+  "price": "$2.79",
+  "reg": "$3.49",
+  "img": "img/shopper/sp-112.jpg"
+ },
+ {
+  "id": 113,
+  "category": "Gustitos y Ahorros",
+  "name": "Suiza Leche Libre de Lactosa",
+  "detail": "Entera o reducida en grasa 2% · 28 oz",
+  "price": "2 x $5.00",
+  "reg": "$3.49 c/u",
+  "img": "img/shopper/sp-113.jpg"
+ },
+ {
+  "id": 114,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Pepsi, 7up, Sunkist o MTN Dew Refresco",
+  "detail": "Variedad · 1.75 lt",
+  "price": "$1.39",
+  "reg": "$1.79",
+  "img": "img/shopper/sp-114.jpg"
+ },
+ {
+  "id": 115,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Pepsi o 7up Refresco",
+  "detail": "Variedad · 8 latas de 12 oz",
+  "price": "$5.49",
+  "reg": "$6.49",
+  "img": "img/shopper/sp-115.jpg"
+ },
+ {
+  "id": 116,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Monster Energizante",
+  "detail": "Variedad · hasta 16.1 oz",
+  "price": "3 x $5.00",
+  "reg": "$2.29 c/u",
+  "img": "img/shopper/sp-116.jpg"
+ },
+ {
+  "id": 117,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Tostitos o Lay's Smooth Ranch Dips",
+  "detail": "Variedad · hasta 15.5 oz",
+  "price": "$3.99",
+  "reg": "$5.59",
+  "img": "img/shopper/sp-117.jpg"
+ },
+ {
+  "id": 118,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Fiesta Mix o Mofongo Mix",
+  "detail": "4.6 oz o 3.3 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.79 c/u",
+  "img": "img/shopper/sp-118.jpg"
+ },
+ {
+  "id": 119,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Cheetos, Chesters Puffcorn o Funyuns",
+  "detail": "Cheetos Jumbo 5 oz, Crunchy 5.7 oz, Puffcorn 4.25 oz o Funyuns 5.75 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-119.jpg"
+ },
+ {
+  "id": 120,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Coors Light Cerveza",
+  "detail": "6 latas de 10 oz",
+  "price": "$6.69",
+  "reg": "$8.19",
+  "img": "img/shopper/sp-120.jpg",
+  "bg": "#d6e6f5"
+ },
+ {
+  "id": 121,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Tostitos o Ruffles",
+  "detail": "Tostitos 9.8 oz o Ruffles hasta 8 oz",
+  "price": "$3.99",
+  "reg": "$4.49",
+  "img": "img/shopper/sp-121.jpg"
+ },
+ {
+  "id": 122,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Planters Maní Coctel",
+  "detail": "Variedad · 12 oz",
+  "price": "$3.45",
+  "reg": "$4.49",
+  "img": "img/shopper/sp-122.jpg"
+ },
+ {
+  "id": 123,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Filler Chicharrón o Platanutres",
+  "detail": "Variedad · hasta 5 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-123.jpg"
+ },
+ {
+  "id": 124,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Ocean Spray Cranberry Cocktail",
+  "detail": "101 oz",
+  "price": "$4.79",
+  "reg": "$6.99",
+  "img": "img/shopper/sp-124.jpg"
+ },
+ {
+  "id": 125,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Redd's Cerveza",
+  "detail": "Variedad · 6 botellas de 12 oz",
+  "price": "$9.69",
+  "reg": "$11.39",
+  "img": "img/shopper/sp-125.jpg"
+ },
+ {
+  "id": 126,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Modelo Especial Cerveza",
+  "detail": "6 botellas de 12 oz",
+  "price": "$10.49",
+  "reg": "$12.79",
+  "img": "img/shopper/sp-126.jpg"
+ },
+ {
+  "id": 127,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Medalla Light Cerveza",
+  "detail": "12 latas de 10 oz",
+  "price": "$10.99",
+  "reg": "$14.69",
+  "img": "img/shopper/sp-127.jpg"
+ },
+ {
+  "id": 128,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Barceló Ron Blanco",
+  "detail": "750 ml",
+  "price": "$10.99",
+  "reg": "$12.59",
+  "img": "img/shopper/sp-128.jpg"
+ },
+ {
+  "id": 129,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Salutaris Agua con Gas",
+  "detail": "Variedad · 8 latas de 12 oz",
+  "price": "$3.99",
+  "reg": "$5.39",
+  "img": "img/shopper/sp-129.jpg"
+ },
+ {
+  "id": 130,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Ménage à Trois Vino",
+  "detail": "Variedad · 750 ml",
+  "price": "$14.99",
+  "reg": "$18.19",
+  "img": "img/shopper/sp-130.jpg"
+ },
+ {
+  "id": 131,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Principato Vino",
+  "detail": "Pinot Grigio o Pinot Noir · 750 ml",
+  "price": "$10.99",
+  "reg": "$14.79",
+  "img": "img/shopper/sp-131.jpg"
+ },
+ {
+  "id": 132,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Brugal Ron Añejo",
+  "detail": "750 ml",
+  "price": "$12.99",
+  "reg": "$15.59",
+  "img": "img/shopper/sp-132.jpg"
+ },
+ {
+  "id": 133,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Fresca, Fuze o Del Valle",
+  "detail": "Grape Fruit Citrus, Lemon Ice Tea o Fruit Punch · 8 latas de 12 oz",
+  "price": "$5.99",
+  "reg": "$7.19",
+  "img": "img/shopper/sp-133.jpg"
+ },
+ {
+  "id": 134,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Sprite Lymonade o Fanta",
+  "detail": "Pineapple o Berry · 8 latas de 12 oz",
+  "price": "$5.99",
+  "reg": "$7.19",
+  "img": "img/shopper/sp-134.jpg"
+ },
+ {
+  "id": 135,
+  "category": "Vinos, Licores y Cervezas",
+  "name": "Coca-Cola Cherry o Fanta Orange Zero Sugar",
+  "detail": "Refresco mini · 12 latas de 8 oz",
+  "price": "$5.99",
+  "reg": "$7.19",
+  "img": "img/shopper/sp-135.jpg"
+ },
+ {
+  "id": 136,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Adjuntas Carbón Vegetal",
+  "detail": "5 lb",
+  "price": "$4.59",
+  "reg": "$5.79",
+  "img": "img/shopper/sp-136.jpg"
+ },
+ {
+  "id": 137,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Degree Desodorante",
+  "detail": "Variedad · hasta 2.7 oz",
+  "price": "$3.99",
+  "reg": "$5.99",
+  "img": "img/shopper/sp-137.jpg"
+ },
+ {
+  "id": 138,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Lysol Air Sanitizer",
+  "detail": "Variedad · 10 oz",
+  "price": "$5.99",
+  "reg": "$8.99",
+  "img": "img/shopper/sp-138.jpg"
+ },
+ {
+  "id": 139,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Lysol Disinfecting Wipes",
+  "detail": "Variedad · 35 ct",
+  "price": "$2.99",
+  "reg": "$6.49",
+  "img": "img/shopper/sp-139.jpg"
+ },
+ {
+  "id": 140,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Real Kill Insecticida",
+  "detail": "Hormigas y cucarachas · Variedad · 12 oz",
+  "price": "$3.59",
+  "reg": "$5.49",
+  "img": "img/shopper/sp-140.jpg"
+ },
+ {
+  "id": 141,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Palmolive Naturals Jabón en Barra",
+  "detail": "Yogurt & Fruits · 3 barras de 3.53 oz",
+  "price": "$2.19",
+  "reg": "$3.49",
+  "img": "img/shopper/sp-141.jpg"
+ },
+ {
+  "id": 142,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Bleach-AR Cloro",
+  "detail": "Original · 128 oz",
+  "price": "2 x $5.00",
+  "reg": "$2.99 c/u",
+  "img": "img/shopper/sp-142.jpg"
+ },
+ {
+  "id": 143,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Purex Ultra Detergente",
+  "detail": "Variedad · hasta 150 oz",
+  "price": "$12.99",
+  "reg": "$17.99",
+  "img": "img/shopper/sp-143.jpg"
+ },
+ {
+  "id": 144,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Suavitel Complete Suavizador",
+  "detail": "Variedad · 46 oz",
+  "price": "$3.59",
+  "reg": "$4.99",
+  "img": "img/shopper/sp-144.jpg"
+ },
+ {
+  "id": 145,
+  "category": "Hogar, Salud y Belleza",
+  "name": "DMX Plastic Restorer, Water Repellent & Glass Cleaner o Brake Cleaner",
+  "detail": "14 oz",
+  "price": "$5.59",
+  "reg": "$7.99",
+  "img": "img/shopper/sp-145.jpg"
+ },
+ {
+  "id": 146,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Comet Disinfecting Cleaner with Bleach",
+  "detail": "32 oz",
+  "price": "$4.59",
+  "reg": "$6.99",
+  "img": "img/shopper/sp-146.jpg"
+ },
+ {
+  "id": 147,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Palmolive Líquido para Fregar",
+  "detail": "Essential Clean · Variedad · 12.6 oz",
+  "price": "$1.39",
+  "reg": "$1.79",
+  "img": "img/shopper/sp-147.jpg"
+ },
+ {
+  "id": 148,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Niveo Papel Sanitario",
+  "detail": "12 rollos",
+  "price": "$5.99",
+  "reg": "$8.49",
+  "img": "img/shopper/sp-148.jpg"
+ },
+ {
+  "id": 149,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Bounty Papel Toalla",
+  "detail": "Variedad · 2 rollos de 82 hojas",
+  "price": "$6.69",
+  "reg": "$9.49",
+  "img": "img/shopper/sp-149.jpg"
+ },
+ {
+  "id": 150,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Dial Complete Hand Wash",
+  "detail": "Antibacterial · Variedad · 11 oz",
+  "price": "$3.29",
+  "reg": "$4.69",
+  "img": "img/shopper/sp-150.jpg"
+ },
+ {
+  "id": 151,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Soft Wave Papel Toalla",
+  "detail": "1 rollo",
+  "price": "4 x $5.00",
+  "reg": "$1.79 c/u",
+  "img": "img/shopper/sp-151.jpg"
+ },
+ {
+  "id": 152,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Colgate Total Pasta Dental",
+  "detail": "Mint Stripe Gel · 5.1 oz",
+  "price": "$3.09",
+  "reg": "$4.59",
+  "img": "img/shopper/sp-152.jpg"
+ },
+ {
+  "id": 153,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Protex Jabón en Barra",
+  "detail": "Complete · 6 barras de 3.7 oz",
+  "price": "$5.69",
+  "reg": "$9.59",
+  "img": "img/shopper/sp-153.jpg"
+ },
+ {
+  "id": 154,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Pedigree Comida Seca para Perro",
+  "detail": "Variedad · 3.5 lb",
+  "price": "$6.79",
+  "reg": "$8.99",
+  "img": "img/shopper/sp-154.jpg"
+ },
+ {
+  "id": 155,
+  "category": "Hogar, Salud y Belleza",
+  "name": "Fabuloso Limpiador",
+  "detail": "Variedad · 56 oz",
+  "price": "$2.69",
+  "reg": "$3.79",
+  "img": "img/shopper/sp-155.jpg"
+ }
+]

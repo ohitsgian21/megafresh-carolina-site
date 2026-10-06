@@ -18,7 +18,7 @@
 /* ── Flipbook container — fixed dimensions required by turn.js ── */
 .flipbook {
     width: 1000px;
-    height: 600px;
+    height: 550px;
     max-width: 100%;
 }
 
@@ -56,18 +56,23 @@
     font-size: 14px;
 }
 
-/* ── Dual-page spread ── */
-.page.spread-left,
-.page.spread-right {
-    background-image: url('../img/part5.jpeg');
-    background-size: 200% 100%;
-    background-repeat: no-repeat;
-    background-position: left center;
+/* ── Previous / next buttons ── */
+.flipbook-wrapper { gap: 14px; }
+.flip-nav {
+    flex: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
     border: none;
+    background: var(--primary, #CC0000);
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-.page.spread-right {
-    background-position: right center;
-}
+.flip-nav:hover { background: #a80d12; }
+@media (max-width: 1140px) { .flip-nav { display: none; } }
 
 /* ── Hide flipbook on mobile, show vertical gallery ── */
 @media (max-width: 768px) {

@@ -92,35 +92,46 @@
 <section id="especiales" class="section-py bg-light-section">
   <div class="container">
     <div class="section-header text-center mx-auto mb-5" style="max-width:800px;">
-      <span class="specials-badge">Especiales del Mes</span>
-      <h2 class="display-4 mb-4">Nuestros Especiales Del Mes</h2>
+      <span class="specials-badge">Shopper Mega Fresh</span>
+      <h2 class="display-4 mb-4">Nuestro Shopper</h2>
       <p class="lead">
-        Cada mes en Mega Fresh Carolina seleccionamos una variedad de productos frescos,
-        esenciales y favoritos de nuestros clientes para ofrecerles a precios especiales.
+        Hojea el shopper de Supermercados Mega Fresh: carnes frescas, La Placita, provisiones,
+        lácteos y congelados, bebidas y todo para el hogar a precios especiales.
         ¡Ahorra mientras compras lo que más te gusta!
       </p>
     </div>
 
     <!-- Flipbook (desktop) -->
     <div class="flipbook-wrapper">
+      <button type="button" class="flip-nav" id="flip-prev" aria-label="Página anterior">&#8249;</button>
       <div class="flipbook">
-        <div><img src="img/part1.jpeg" alt="Especiales página 1" decoding="async"></div>
-        <div class="page spread-left"></div>
-        <div class="page spread-right"></div>
-        <div><img src="img/part4.jpeg" alt="Especiales página 4" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-1.jpg" alt="Shopper Mega Fresh, página 1" decoding="async"></div>
+        <div><img src="img/shopper/shopper-2.jpg" alt="Shopper Mega Fresh, página 2" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-3.jpg" alt="Shopper Mega Fresh, página 3" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-4.jpg" alt="Shopper Mega Fresh, página 4" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-5.jpg" alt="Shopper Mega Fresh, página 5" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-6.jpg" alt="Shopper Mega Fresh, página 6" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-7.jpg" alt="Shopper Mega Fresh, página 7" loading="lazy" decoding="async"></div>
+        <div><img src="img/shopper/shopper-8.jpg" alt="Shopper Mega Fresh, página 8" loading="lazy" decoding="async"></div>
       </div>
+      <button type="button" class="flip-nav" id="flip-next" aria-label="Página siguiente">&#8250;</button>
     </div>
 
     <!-- Mobile vertical gallery -->
     <div class="vertical-gallery">
-      <img src="img/part1.jpeg" alt="Especiales página 1" decoding="async">
-      <img src="img/part4.jpeg" alt="Especiales página 4" loading="lazy" decoding="async">
-      <img src="img/part5.jpeg" alt="Especiales página 5" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-1.jpg" alt="Shopper Mega Fresh, página 1" decoding="async">
+      <img src="img/shopper/shopper-2.jpg" alt="Shopper Mega Fresh, página 2" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-3.jpg" alt="Shopper Mega Fresh, página 3" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-4.jpg" alt="Shopper Mega Fresh, página 4" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-5.jpg" alt="Shopper Mega Fresh, página 5" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-6.jpg" alt="Shopper Mega Fresh, página 6" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-7.jpg" alt="Shopper Mega Fresh, página 7" loading="lazy" decoding="async">
+      <img src="img/shopper/shopper-8.jpg" alt="Shopper Mega Fresh, página 8" loading="lazy" decoding="async">
     </div>
 
     <div class="text-center mt-5">
       <a class="btn btn-primary rounded-pill py-3 px-5" href="contacto.html">
-        Ofertas válidas del 1 al 30 de abril de 2026 &mdash; ¡Contáctanos!
+        Especiales válidos del 17 al 30 de septiembre de 2026 &mdash; ¡Contáctanos!
       </a>
     </div>
   </div>
@@ -145,7 +156,7 @@
     <div class="deals-count" id="deals-count"></div>
 
     <div class="row g-3" id="specials-grid">
-      <!-- Rendered by JS from novSpecials.json -->
+      <!-- Rendered by JS from specials.json -->
     </div>
 
     <div class="text-center">
@@ -162,7 +173,7 @@
     <div class="row g-4 align-items-center">
       <div class="col-md-7">
         <h2 class="display-5">¿Tienes Preguntas Sobre Los Especiales?</h2>
-        <p class="mb-0">Visítanos o llámanos. Los precios están sujetos a disponibilidad.</p>
+        <p class="mb-0">Visítanos o llámanos. Variedad de productos y precios regulares pueden variar por tienda. Los precios están sujetos a disponibilidad.</p>
       </div>
       <div class="col-md-5 text-md-end">
         <a href="contacto.html" class="btn btn-secondary rounded-pill py-3 px-5 btn-lg">Contáctanos</a>
@@ -238,11 +249,13 @@
 window.addEventListener('load', function () {
   if (window.jQuery && $('.flipbook').length && typeof $.fn.turn === 'function') {
     $('.flipbook').turn({ autoCenter: true });
+    $('#flip-prev').on('click', function () { $('.flipbook').turn('previous'); });
+    $('#flip-next').on('click', function () { $('.flipbook').turn('next'); });
   }
 });
 </script>
 
-<!-- Specials Grid from novSpecials.json -->
+<!-- Specials Grid from specials.json -->
 <script>
 (function() {
   var PAGE_SIZE = 24;
@@ -251,7 +264,7 @@ window.addEventListener('load', function () {
   var filteredProducts = [];
   var activeCategory = 'all';
   var coldOnly = false;
-  var COLD_CATEGORIES = ['Productos Congelados', 'Lacteos y Derivados'];
+  var COLD_CATEGORIES = ['Lácteos y Congelados', 'Carnes Frescas'];
 
   // Check URL param for pre-selected category
   var urlParams = new URLSearchParams(window.location.search);
@@ -274,11 +287,13 @@ window.addEventListener('load', function () {
       return '<div class="col-lg-3 col-md-4 col-6">' +
         '<div class="deal-card">' +
         badge +
-        '<img class="deal-card-img" src="img/product-1.jpg" alt="' + escHtml(p.name) + '" loading="lazy">' +
+        '<img class="deal-card-img" src="' + escHtml(p.img) + '" alt="' + escHtml(p.name) + '" loading="lazy"' + (p.bg ? ' style="background:' + escHtml(p.bg) + '"' : '') + '>' +
         '<div class="deal-card-body">' +
         '<div class="deal-card-cat">' + escHtml(p.category) + '</div>' +
         '<div class="deal-card-name">' + escHtml(p.name) + '</div>' +
+        (p.detail ? '<div class="deal-card-detail">' + escHtml(p.detail) + '</div>' : '') +
         '<div class="deal-card-price">' + escHtml(p.price) + '</div>' +
+        (p.reg ? '<div class="deal-card-reg">Reg. ' + escHtml(p.reg) + '</div>' : '') +
         '</div></div></div>';
     }).join('');
 
@@ -313,7 +328,7 @@ window.addEventListener('load', function () {
     products.forEach(function(p) {
       if (cats.indexOf(p.category) === -1) cats.push(p.category);
     });
-    cats.sort();
+    /* keep the shopper's own section order */
     var bar = document.getElementById('filter-bar');
     var coldBtn = document.getElementById('cold-toggle');
     cats.forEach(function(cat) {
@@ -346,7 +361,7 @@ window.addEventListener('load', function () {
     renderGrid();
   });
 
-  fetch('js/novSpecials.json')
+  fetch('js/specials.json')
     .then(function(r) { return r.json(); })
     .then(function(data) {
       allProducts = data;

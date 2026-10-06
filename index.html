@@ -477,7 +477,9 @@ document.addEventListener('DOMContentLoaded', function() {
         '<div class="deal-card-body">' +
         '<div class="deal-card-cat">' + escHtml(deal.category) + '</div>' +
         '<div class="deal-card-name">' + escHtml(deal.name) + '</div>' +
+        (deal.detail ? '<div class="deal-card-detail">' + escHtml(deal.detail) + '</div>' : '') +
         '<div class="deal-card-price">' + escHtml(deal.price) + '</div>' +
+        (deal.reg ? '<div class="deal-card-reg">Reg. ' + escHtml(deal.reg) + '</div>' : '') +
         '</div></div></div>';
     }).join('');
   }
