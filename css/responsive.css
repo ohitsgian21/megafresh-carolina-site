@@ -1,0 +1,499 @@
+/* ================================================
+   Responsive — Mega Fresh Carolina
+   iPhone / Mobile-first layout fixes
+   ================================================ */
+
+/* ── Global overflow guard (all sizes) ── */
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* Owl Carousel must never overflow horizontally */
+.owl-carousel,
+.owl-carousel .owl-stage-outer {
+    overflow: hidden !important;
+    max-width: 100% !important;
+}
+
+/* ── Tablet (≤ 991px) ── */
+@media (max-width: 991.98px) {
+
+    /* Carousel heading scales down */
+    .carousel-caption h1 {
+        font-size: 2.6rem;
+        line-height: 1.2;
+    }
+    .carousel-caption p {
+        font-size: 0.82rem;
+    }
+
+    /* Feature GIFs — portrait rectangles on tablet */
+    .feature-card img.img-fluid {
+        height: 360px;
+        aspect-ratio: unset;
+    }
+}
+
+/* ── Mobile (≤ 767px) ── */
+@media (max-width: 767.98px) {
+
+    /* ─ Base ─ */
+    body {
+        padding: 0;
+    }
+
+    /* Safe box-sizing globally — does NOT constrain fixed/absolute elements like max-width:100vw did */
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+    img {
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    /* ─ Top bar ─ */
+    .top-bar {
+        display: none;
+    }
+
+    /* ─ Navbar ─ */
+    .navbar .navbar-nav .nav-link {
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    /* ─ Carousel ─ */
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: max(420px, 55vh);
+        background: linear-gradient(150deg, var(--primary-dark, #A00000) 0%, var(--primary, #CC0000) 100%);
+    }
+    #header-carousel .carousel-item img {
+        display: none !important;
+    }
+    #header-carousel .carousel-item::before {
+        display: none;
+    }
+    .carousel-caption {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        align-items: center;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+        line-height: 1.25;
+        margin-bottom: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+        opacity: 0.85;
+    }
+    .carousel-caption .btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.85rem;
+        margin: 4px 3px;
+        white-space: nowrap;
+    }
+    /* Center the hero tag pill and button row */
+    .carousel-caption .hero-caption-tag {
+        display: block;
+        text-align: center;
+    }
+    .carousel-caption .d-flex {
+        justify-content: center !important;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 12%;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    /* ─ Containers — reduce gutter on mobile ─ */
+    .container,
+    .container-xxl,
+    .container-fluid {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    /* Compensate row negative margins for g-5 gutter */
+    .row.g-5 {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .row.g-4 {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .row.g-5 > [class*="col"],
+    .row.g-4 > [class*="col"] {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    /* ─ Section spacing ─ */
+    .my-6 { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
+    .py-6 { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+    .py-5 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+
+    /* ─ Section headers ─ */
+    .section-header {
+        text-align: center !important;
+    }
+    .section-header h1.display-5 {
+        font-size: 1.75rem;
+    }
+    .section-header::before,
+    .section-header::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* ─ About image — strip internal padding on mobile ─ */
+    .about-img {
+        padding: 0 !important;
+        margin-bottom: 1.5rem;
+    }
+    .about-img img {
+        width: 100% !important;
+        max-width: 100% !important;
+        max-height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    /* Remove excessive px-5 column padding */
+    [class*="col"].px-5,
+    .col-lg-6.px-5 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* ─ Feature / Area Cards (GIFs) — 9:16 portrait, double size ─ */
+    .feature-card img.img-fluid {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .feature-card {
+        margin-bottom: 0;
+    }
+
+    /* ─ Page header (inner pages) — display + base sizing handled in header.css ─ */
+    .page-header {
+        text-align: center;
+    }
+
+    /* ─ CTA Band ─ */
+    .container-fluid.bg-primary.bg-icon .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container-fluid.bg-primary.bg-icon h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .container-fluid.bg-primary.bg-icon p {
+        text-align: center;
+    }
+    .container-fluid.bg-primary.bg-icon .btn {
+        display: block;
+        margin: 1rem auto 0 auto;
+        width: fit-content;
+    }
+
+    /* ─ Testimonials ─ */
+    .testimonial-carousel .owl-nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .testimonial-carousel .owl-nav .owl-prev,
+    .testimonial-carousel .owl-nav .owl-next {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    /* Fix testimonial item padding on mobile */
+    .testimonial-item {
+        padding: 1.25rem !important;
+    }
+
+    /* ─ Products ─ */
+    .product-item {
+        margin-bottom: 1.5rem;
+    }
+
+    /* ─ About section — center checklist & CTA button ─ */
+    .d-flex.flex-wrap.gap-3 {
+        justify-content: center !important;
+    }
+    .d-flex.flex-wrap.gap-3 > p.mb-0 {
+        text-align: left !important;
+        width: auto;
+    }
+    /* Center the "Conoce Nuestra Historia" button */
+    .col-lg-6 > .btn.btn-primary.rounded-pill.mt-4 {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ─ Especiales Destacados header + button row ─ */
+    #especiales .d-flex.justify-content-between {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    #especiales .section-header {
+        text-align: center !important;
+        width: 100%;
+    }
+    #especiales .section-header h2 {
+        text-align: center !important;
+    }
+
+    /* ─ CTA band button — center on mobile ─ */
+    .cta-band .col-md-5 {
+        text-align: center !important;
+    }
+    .cta-band h2,
+    .cta-band p {
+        text-align: center !important;
+    }
+
+    /* ─ General text alignment on mobile ─ */
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center !important;
+    }
+    .text-start {
+        text-align: center !important;
+    }
+    /* Info/detail items (contact cards, about lists, etc.) */
+    .contact-info-text p,
+    .contact-info-text h6 {
+        text-align: left !important;
+    }
+    /* Body/content paragraphs — justify for readability */
+    .section-py p,
+    .section-py-sm p,
+    .about-text p,
+    .nosotros-text p,
+    .testimonial-item p,
+    .category-card-body p,
+    .feature-card p {
+        text-align: justify !important;
+    }
+    /* Buttons and inline elements stay centered */
+    .btn, .badge {
+        text-align: center !important;
+    }
+    /* Breadcrumb centered */
+    .breadcrumb {
+        justify-content: center;
+    }
+
+    /* ─ Contact ─ */
+    .contact-page .container-xxl {
+        margin-top: 40px;
+    }
+    /* Reduce p-5 panel padding on small phones so content isn't squeezed */
+    .contact-page .bg-primary.p-5 {
+        padding: 1.5rem !important;
+    }
+    /* Stack info panel above form with a small gap */
+    .contact-page .row.g-5 > .col-lg-5 {
+        margin-bottom: 1rem;
+    }
+
+    /* ─ Footer ─ */
+    .footer {
+        text-align: center;
+    }
+    .footer-logo-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-brand-sub {
+        text-align: center;
+    }
+    /* Footer paragraphs with icons — center, don't justify (breaks icon layout) */
+    .footer p {
+        text-align: center !important;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+    }
+    .footer p i {
+        flex-shrink: 0;
+        margin-top: 3px;
+        margin-right: 0 !important;
+    }
+    /* Footer nav links — centered */
+    .footer .btn.btn-link {
+        text-align: center !important;
+        display: block;
+    }
+    .footer .btn.btn-link::before {
+        display: none;
+    }
+    .footer-social {
+        justify-content: center;
+    }
+    .footer .copyright {
+        font-size: 13px;
+    }
+    .footer .copyright .row > div {
+        text-align: center !important;
+    }
+
+    /* ─ Newsletter ─ */
+    .footer .input-group,
+    .footer-newsletter {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .footer .input-group .form-control,
+    .footer-newsletter .form-control {
+        border-radius: 30px !important;
+        width: 100%;
+    }
+    .footer .input-group .btn,
+    .footer-newsletter .btn {
+        border-radius: 30px !important;
+        width: 100%;
+    }
+
+    /* ─ Stats banner & CTA band — solid color on mobile ─ */
+    .stats-banner {
+        background: #B00000;
+    }
+    .cta-band {
+        background: #B00000;
+    }
+
+    /* ─ Back to Top button ─ */
+    .back-to-top {
+        right: 16px;
+        bottom: max(20px, env(safe-area-inset-bottom, 20px));
+        width: 42px;
+        height: 42px;
+        font-size: 1rem;
+    }
+
+    /* ─ iPhone safe area ─ */
+    .navbar {
+        padding-top: max(12px, env(safe-area-inset-top));
+    }
+    .footer .copyright {
+        padding-bottom: max(25px, env(safe-area-inset-bottom));
+    }
+}
+
+/* ── Extra Small phones (≤ 400px) ── */
+@media (max-width: 399.98px) {
+    .carousel-caption h1 {
+        font-size: 1.65rem;
+    }
+    .carousel-caption .btn + .btn {
+        margin-top: 4px;
+    }
+    .feature-card img.img-fluid {
+        aspect-ratio: 9 / 16;
+        height: auto;
+    }
+    .page-header h1.display-3 {
+        font-size: 1.6rem;
+    }
+    .navbar-logo-img {
+        height: 36px;
+        width: 36px;
+    }
+    .logo-location {
+        font-size: 0.68rem;
+    }
+}
+
+/* ── New Components — Hero carousel (full viewport) ── */
+@media (max-width: 767.98px) {
+    .hero-carousel .carousel-item img {
+        min-height: 400px;
+        max-height: 480px;
+    }
+    .hero-carousel .carousel-caption {
+        padding: 0 1rem;
+    }
+    .hero-carousel .carousel-caption h1 {
+        font-size: clamp(1.6rem, 6vw, 2.4rem);
+    }
+
+    /* Features strip: 2 cols on mobile */
+    .features-strip .col-6 { flex: 0 0 50%; max-width: 50%; }
+
+    /* Category card — stack vertically on mobile, 9:16 GIF */
+    .category-card { flex-direction: column; }
+    .category-card-img-wrap {
+        width: 100%;
+        min-width: unset;
+        height: auto;
+        aspect-ratio: 9 / 16;
+    }
+    .category-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 0;
+    }
+    .category-card:hover img { transform: scale(1.08); }
+    .category-card-body { padding: 1rem 1.25rem 1.25rem; }
+
+    /* Stats numbers smaller */
+    .stat-number { font-size: 2rem; }
+
+    /* Deal cards: 2 per row on small screens */
+    #deals-grid .col-lg-3,
+    #specials-grid .col-lg-3 { flex: 0 0 50%; max-width: 50%; }
+
+    /* About preview image */
+    .about-preview-img img { height: 260px; }
+    .nosotros-hero-img { height: 260px; }
+    .banner-logo { max-width: 260px; }
+
+    /* Contact info card */
+    .contact-info-card { padding: 1.25rem; }
+
+    /* Filter bar wraps nicely */
+    .filter-bar { gap: 6px; }
+    .filter-btn { font-size: 0.76rem; padding: 5px 12px; }
+
+    /* CTA Band */
+    .cta-band { text-align: center; }
+    .cta-band .col-md-5 { text-align: center !important; }
+
+    /* Search overlay */
+    #search-overlay { padding-top: 40px; }
+    #search-input { font-size: 1rem; padding: 12px 16px; }
+}
+
+/* ── Large screens (TV / 4K) ── */
+@media (min-width: 1600px) {
+    .hero-carousel .carousel-item img { max-height: 800px; }
+    .container { max-width: 1400px; }
+}
