@@ -20,7 +20,7 @@
 
   /* Load the full shopper so search covers every special, not only the featured ones. */
   if (window.fetch) {
-    fetch('js/specials.json')
+    fetch('js/specials.json?v=11')
       .then(function(r) { return r.json(); })
       .then(function(list) { if (list && list.length) deals = list; })
       .catch(function() {});

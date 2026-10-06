@@ -75,25 +75,41 @@
             });
         }
 
-        /* ── Department clips: play only while on screen ───────── */
+        /* ── Department clips: play while on screen, pause when scrolled away ── */
         window.initCategoryVideos = function () {
             var vids = document.querySelectorAll('video.category-video:not([data-ready])');
             if (!vids.length) return;
-            var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            var play = function (v) { var p = v.play(); if (p && p.catch) p.catch(function () {}); };
-            var io = ('IntersectionObserver' in window && !reduce) ? new IntersectionObserver(function (entries) {
+            var play = function (v) {
+                v.muted = true;
+                var p = v.play();
+                if (p && p.catch) p.catch(function () { v.setAttribute('data-blocked', '1'); });
+            };
+            var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function (entries) {
                 entries.forEach(function (entry) {
                     if (entry.isIntersecting) play(entry.target); else entry.target.pause();
                 });
-            }, { rootMargin: '150px 0px', threshold: 0.01 }) : null;
+            }, { rootMargin: '200px 0px', threshold: 0.01 }) : null;
             vids.forEach(function (v) {
                 v.setAttribute('data-ready', '1');
                 v.muted = true;
-                if (reduce) return;            // keep the still frame
-                if (io) io.observe(v); else play(v);
+                v.defaultMuted = true;
+                v.setAttribute('playsinline', '');
+                play(v);
+                if (io) io.observe(v);
             });
         };
         window.initCategoryVideos();
+        /* Some phones refuse autoplay until the first touch (battery saver):
+           start any clip that was refused as soon as the visitor interacts. */
+        var kick = function () {
+            document.querySelectorAll('video.category-video[data-blocked]').forEach(function (v) {
+                v.removeAttribute('data-blocked');
+                var p = v.play(); if (p && p.catch) p.catch(function () {});
+            });
+        };
+        ['touchstart', 'click', 'scroll', 'keydown'].forEach(function (ev) {
+            window.addEventListener(ev, kick, { passive: true });
+        });
 
         /* ── Scroll-Reveal (IntersectionObserver) ──────────────── */
         if ('IntersectionObserver' in window) {

@@ -24,14 +24,14 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css?v=9" rel="stylesheet">
+  <link href="css/bootstrap.min.css?v=11" rel="stylesheet">
 
   <!-- Site CSS -->
-  <link href="css/variables.css?v=9" rel="stylesheet">
-  <link href="css/base.css?v=9" rel="stylesheet">
-  <link href="css/components.css?v=9" rel="stylesheet">
-  <link href="css/flipbook.css?v=9" rel="stylesheet">
-  <link href="css/responsive.css?v=9" rel="stylesheet">
+  <link href="css/variables.css?v=11" rel="stylesheet">
+  <link href="css/base.css?v=11" rel="stylesheet">
+  <link href="css/components.css?v=11" rel="stylesheet">
+  <link href="css/flipbook.css?v=11" rel="stylesheet">
+  <link href="css/responsive.css?v=11" rel="stylesheet">
 </head>
 <body>
 
@@ -434,9 +434,9 @@
 <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
 <!-- Site JS -->
-<script src="js/data.js"></script>
-<script src="js/main.js" defer></script>
-<script src="js/search.js" defer></script>
+<script src="js/data.js?v=11"></script>
+<script src="js/main.js?v=11" defer></script>
+<script src="js/search.js?v=11" defer></script>
 
 <!-- Render categories & deals from data.js -->
 <script>
@@ -455,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cGrid.innerHTML = window.categories.map(function(cat) {
       return '<div class="col-lg-6 col-md-6 animate-on-scroll">' +
         '<a href="categorias.html" class="category-card">' +
-        '<div class="category-card-img-wrap"><video class="category-video" src="' + escHtml(cat.video) + '" poster="' + escHtml(cat.poster) + '" muted loop playsinline preload="none" aria-label="' + escHtml(cat.name) + '"></video></div>' +
+        '<div class="category-card-img-wrap"><video class="category-video" src="' + escHtml(cat.video) + '" poster="' + escHtml(cat.poster) + '" autoplay muted loop playsinline preload="metadata" aria-label="' + escHtml(cat.name) + '"></video></div>' +
         '<div class="category-card-body">' +
         '<h4>' + escHtml(cat.name) + '</h4>' +
         '<p>' + escHtml(cat.description) + '</p>' +
