@@ -248,7 +248,8 @@ body.tv-mode {
   gap: 20px;
   padding: 20px 28px;
 }
-.tv-cat-card img {
+.tv-cat-card img,
+.tv-cat-card video {
   width: 120px;
   height: 120px;
   object-fit: contain;

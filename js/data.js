@@ -18,42 +18,48 @@ window.categories = [
     id: "congelados",
     name: "Sodas, Jugos y Congelados",
     description: "Selección completa de bebidas frías y productos congelados.",
-    gif: "img/congelados.gif",
+    video: "img/video/congelados.mp4",
+    poster: "img/video/congelados.jpg",
     filterKey: "Lácteos y Congelados"
   },
   {
     id: "neveras",
     name: "Lácteos y Proteínas",
     description: "Leche, quesos, proteínas y más. Frescos del día, siempre.",
-    gif: "img/neveras.gif",
+    video: "img/video/neveras.mp4",
+    poster: "img/video/neveras.jpg",
     filterKey: "Carnes Frescas"
   },
   {
     id: "limpieza",
     name: "Artículos del Hogar",
     description: "Limpieza del hogar y variedad de productos esenciales.",
-    gif: "img/limpieza.gif",
+    video: "img/video/limpieza.mp4",
+    poster: "img/video/limpieza.jpg",
     filterKey: "Hogar, Salud y Belleza"
   },
   {
     id: "hygiene",
     name: "Higiene Personal",
     description: "Múltiples selecciones de productos de higiene personal.",
-    gif: "img/hygiene.gif",
+    video: "img/video/hygiene.mp4",
+    poster: "img/video/hygiene.jpg",
     filterKey: "Hogar, Salud y Belleza"
   },
   {
     id: "grains",
     name: "Cereales, Galletas y Jugos",
     description: "Amplia variedad de cereales, galletas y jugos refrigerados.",
-    gif: "img/grains.gif",
+    video: "img/video/grains.mp4",
+    poster: "img/video/grains.jpg",
     filterKey: "Gustitos y Ahorros"
   },
   {
     id: "auto",
     name: "Mantenimiento Automotriz",
     description: "Limpieza de autos con todo tipo de aceite lubricante.",
-    gif: "img/auto.gif",
+    video: "img/video/auto.mp4",
+    poster: "img/video/auto.jpg",
     filterKey: "Hogar, Salud y Belleza"
   }
 ];

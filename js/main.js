@@ -75,6 +75,26 @@
             });
         }
 
+        /* ── Department clips: play only while on screen ───────── */
+        window.initCategoryVideos = function () {
+            var vids = document.querySelectorAll('video.category-video:not([data-ready])');
+            if (!vids.length) return;
+            var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var play = function (v) { var p = v.play(); if (p && p.catch) p.catch(function () {}); };
+            var io = ('IntersectionObserver' in window && !reduce) ? new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) play(entry.target); else entry.target.pause();
+                });
+            }, { rootMargin: '150px 0px', threshold: 0.01 }) : null;
+            vids.forEach(function (v) {
+                v.setAttribute('data-ready', '1');
+                v.muted = true;
+                if (reduce) return;            // keep the still frame
+                if (io) io.observe(v); else play(v);
+            });
+        };
+        window.initCategoryVideos();
+
         /* ── Scroll-Reveal (IntersectionObserver) ──────────────── */
         if ('IntersectionObserver' in window) {
             var observer = new IntersectionObserver(function (entries) {

@@ -86,7 +86,7 @@
       div.className += ' tv-slide-categories';
       var catHtml = (slide.items || []).map(function(cat) {
         return '<div class="tv-cat-card">' +
-          '<img src="' + esc(cat.gif) + '" alt="' + esc(cat.name) + '">' +
+          '<video src="' + esc(cat.video) + '" poster="' + esc(cat.poster) + '" autoplay muted loop playsinline aria-label="' + esc(cat.name) + '"></video>' +
           '<div>' +
           '<div class="tv-cat-name">' + esc(cat.name) + '</div>' +
           '<div class="tv-cat-desc">' + esc(cat.description) + '</div>' +
